@@ -1,0 +1,30 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #101010;
+  color: white;
+}
+/* .app {
+  background-color: #000000;
+} */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+  padding-left: 1%;
+  font-size: 20px;
+}
+
+.submit-btn {
+  background-color: #e20e02;
+}
+.cancel-btn {
+  background-color: #545e75;
+}
+.footer-container {
+  margin-top: 100px;
+}

@@ -1,0 +1,258 @@
+.trailer {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.show {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.trailer-icon-right {
+  margin-left: 1000%;
+  margin-top: 50%;
+  font-size: 18px;
+}
+.trailer-icon-down {
+  margin-left: 1000%;
+  margin-top: 50%;
+  font-size: 18px;
+}
+.addtrailer-container {
+  background-color: #141414;
+  min-height: 700px;
+  margin: 4%;
+  border-radius: 5px;
+}
+.addtrailer-form-container {
+  display: flex;
+  flex-direction: column;
+}
+.addtrailer-title-text {
+  margin-left: 2%;
+}
+.addtrailer-row1 {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.addtrailer-buttons {
+  width: 200px;
+  margin-left: 5.2%;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 4%;
+}
+.submit-btn {
+  cursor: pointer;
+}
+
+.addtrailer-column1 {
+  height: 400px;
+  width: 50%;
+  background-color: #141414;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+.addtrailer-column2 {
+  height: 400px;
+  width: 50%;
+  background-color: #141414;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+.trailer-not-visible {
+  display: none;
+  position: absolute-top;
+  top: 20px;
+}
+.trailer-visible {
+  display: inline-block;
+  max-height: 200px;
+  position: absolute-top;
+  top: 20px;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  /* height: 20px; */
+  /* border: none; */
+  /* border-radius: 5px;
+  color: white; */
+}
+
+.loading-text {
+  color: #e20e02;
+  min-width: 200px;
+  padding-left: 5%;
+  padding-top: 20%;
+}
+
+.addtrailer-item input {
+  width: 95%;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  margin: 2%;
+  background-color: #000000;
+  color: white;
+}
+.addtrailer-item select {
+  width: 95%;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  margin: 2%;
+  background-color: #000000;
+  color: white;
+}
+optgroup {
+  font-size: 30px;
+}
+.addtrailer-category {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-left: 300px;
+}
+/* .addtrailer-category {
+  width: 48%;
+}
+.addtrailer-quality {
+  width: 48%;
+} */
+.trailers {
+  margin: 50px;
+  background-color: #141414;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+.single-trailer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 1px grey;
+  border-radius: 5px;
+  margin: 20px 10px;
+  background-color: black;
+  color: white;
+}
+
+.trailer-date {
+  margin-right: 4px;
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.modal-form {
+  display: flex;
+  justify-content: space-evenly;
+}
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
+.modal-description-container textarea {
+  height: 100px;
+  width: 400px;
+}
+.modal-trailer-container input {
+  width: 50%;
+  margin-top: 1%;
+}
+
+.form-item input {
+  background-color: rgba(211, 211, 211, 0.6);
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  /* margin-top: 2%; */
+}
+.form-item label {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.form-item textarea {
+  background-color: rgba(211, 211, 211, 0.6);
+  border: none;
+  border-radius: 5px;
+  /* margin-top: 2%; */
+}
+.modal-trailer-container input {
+  width: 99%;
+}
+.modal-group-container {
+  display: flex;
+  justify-content: space-around;
+}
+/* .modal-title-container label {
+  margin-bottom: 5%;
+} */
+.trailer-update-button-container {
+  display: block;
+  text-align: center;
+  margin-top: 5%;
+}
+.trailer-update-button {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.trailer-detail-span-item {
+  font-size: 15px;
+  color: white;
+}
+.trailerdetail-info-container {
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.trailer-detail-span {
+  font-size: 18px;
+  color: white;
+}
+.trailerdetail-info-container h3 {
+  color: red;
+}
+.back-to-trailers-btn {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+}
+.trailerdetails-buttons-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20%;
+}
+.edit-trailerdetails-btn {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+}
+.additional-info-items {
+  margin-top: 15%;
+}
+.additional-info-items-show {
+  margin-top: 10%;
+}

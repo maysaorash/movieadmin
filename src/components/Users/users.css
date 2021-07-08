@@ -1,0 +1,31 @@
+.users {
+  margin: 100px;
+  background-color: #808080;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.single-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 1px grey;
+  border-radius: 5px;
+  margin: 20px 10px;
+  background-color: black;
+  color: white;
+}
+.user-pic-container {
+  display: flex;
+  align-items: center;
+  margin: 4px;
+}
+.user-pic {
+  border-radius: 5%;
+  width: 100px;
+  height: 100px;
+}
+
+.user-date {
+  margin-right: 4px;
+}

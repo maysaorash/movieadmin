@@ -1,0 +1,22 @@
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.footer-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-left1111 {
+  margin-right: 10px;
+}
+.footer-right span {
+  color: red;
+}
